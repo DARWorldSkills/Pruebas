@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controllers.Puntuacion">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/nombreul"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="#b0c7d9">
+
+        <ImageView
+            android:layout_width="249dp"
+            android:layout_height="74dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/trofeoro"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtprimero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="#9cb0bf">
+
+        <ImageView
+            android:layout_width="256dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:background="@drawable/trofeoplata"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtsegundo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="#808d96">
+
+        <ImageView
+            android:layout_width="254dp"
+            android:layout_height="87dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:background="@drawable/trofeobron"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/txttercero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="#b0c7d9">
+
+        <ImageButton
+            android:id="@+id/btnCsalir"
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:background="@drawable/puertaapp"
+            android:onClick="cerrar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#b0c7d9"
+            android:onClick="cerrar"
+            android:text="@string/salir"
+            android:textColor="@android:color/background_dark"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

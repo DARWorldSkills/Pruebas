@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controllers.Resumen">
+
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="590dp"
+        android:layout_weight="1"
+        android:background="@drawable/nombreul"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#b0c7d9">
+
+        <TextView
+            android:id="@+id/txtcorrectasR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/palabrascorrectas"
+            android:textStyle="bold"
+            android:textColor="#182937"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#9cb0bf">
+
+        <TextView
+            android:id="@+id/txtincorrectasR"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/palabrasincorrectas"
+            android:textStyle="bold"
+            android:textColor="#182937"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#808d96">
+
+        <TextView
+            android:id="@+id/txtintentosR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#182937"
+            android:text="@string/intentos"
+            android:paddingVertical="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#b0c7d9">
+
+        <ImageButton
+            android:id="@+id/btntwitter"
+            android:layout_width="231dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rwi"
+            android:paddingVertical="20dp" />
+
+        <ImageButton
+            android:id="@+id/btnfacebook"
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/face"
+            android:paddingVertical="20dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#9cb0bf">
+
+        <ImageButton
+            android:id="@+id/btnregresarIC"
+            android:layout_width="268dp"
+            android:layout_height="72dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/casaapp" />
+
+        <Button
+            android:id="@+id/btnregresarC"
+            android:text="@string/menu"
+            android:textStyle="bold"
+            android:textColor="#182937"
+            android:textSize="20dp"
+            android:background="#9cb0bf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
